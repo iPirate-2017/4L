@@ -1,0 +1,3 @@
+Bleu: #0000FF
+Jaune: #FFFF00
+Rouge: #FF0000
