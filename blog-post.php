@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BASICA! A Free Bootstrap3 HTML5 CSS3 Template by Vactual Art</title>
+    <title>nout4l.re - départ du 4L Trophy 2018</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,16 +21,16 @@
     <!-- Custom CSS -->
 	<link rel="stylesheet" href="css/main.css">
     <link href="css/custom.css" rel="stylesheet">
-	
+
 	<script src="//use.edgefonts.net/bebas-neue.js"></script>
 
     <!-- Custom Fonts & Icons -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/icomoon-social.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	
+
 	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	
+
 
 </head>
 
@@ -38,7 +38,7 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        
+
 
     <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
         <div class="container">
@@ -70,7 +70,7 @@
                             <li><a href="#">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li class="active"><a href="blog.html">Blog</a></li> 
+                    <li class="active"><a href="blog.html">Blog</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
 				</div>
 			</div>
 		</div>
-        
+
         <div class="section">
 	    	<div class="container">
 				<div class="row">
@@ -103,7 +103,7 @@
 							</div>
 							<div class="single-post-info">
 								<i class="glyphicon glyphicon-time"></i>30 JAN, 2013 <a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment"></i>11</a>
-							</div>							
+							</div>
 							<div class="single-post-content">
 								<h3>Lorem ipsum dolor sit amet</h3>
 								<p>
@@ -117,7 +117,7 @@
 								</p>
 								<p>
 									Vivamus euismod elit ac libero facilisis tristique. Duis mollis non ligula vel tincidunt. Nulla consectetur libero id nunc ornare, vel vulputate tellus mollis. Sed quis nulla magna. Integer rhoncus sem quis ultrices lobortis. Maecenas tempus nulla quis dolor vulputate egestas. Phasellus cursus tortor quis massa faucibus fermentum vel sit amet tortor. Phasellus vehicula lorem et tortor luctus, a dignissim lacus tempor. Aliquam volutpat molestie metus sit amet aliquam. Duis vestibulum quam tortor, sed ultrices orci sagittis nec.
-								</p>								
+								</p>
 								<h3>Sed sit amet metus sit</h3>
 								<p>
 									Proin fermentum, purus id eleifend molestie, nisl arcu rutrum tellus, a luctus erat tortor ut augue. Vivamus feugiat nisi sit amet dignissim fermentum. Duis elementum mattis lacinia. Sed sit amet metus sit amet leo semper feugiat. Nulla vel orci nec neque interdum facilisis egestas vitae lorem. Phasellus elit ante, posuere at augue quis, porta vestibulum magna. Nullam non mattis odio. Donec eget velit leo. Nunc et diam volutpat tellus ultrices fringilla eu a neque. Integer lectus nunc, vestibulum a turpis vitae, malesuada lacinia nibh. In sit amet leo ut turpis convallis bibendum. Nullam nec purus sapien. Quisque sollicitudin cursus felis sit amet aliquam.
@@ -168,9 +168,9 @@
 	    <!-- Footer -->
 	    <div class="footer">
 	    	<div class="container">
-			
+
 		    	<div class="row">
-				
+
 		    		<div class="col-footer col-md-4 col-xs-6">
 		    			<h3>Contact Us</h3>
 		    			<p class="contact-us-details">
@@ -179,7 +179,7 @@
 	        				<b>Fax:</b> +1 123 45678910<br/>
 	        				<b>Email:</b> <a href="mailto:info@yourcompanydomain.com">info@yourcompanydomain.com</a>
 	        			</p>
-		    		</div>				
+		    		</div>
 		    		<div class="col-footer col-md-4 col-xs-6">
 		    			<h3>Our Social Networks</h3>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
@@ -208,10 +208,10 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
-		
+
 		<!-- Scrolling Nav JavaScript -->
 		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/scrolling-nav.js"></script>		
+		<script src="js/scrolling-nav.js"></script>
 
     </body>
 </html>

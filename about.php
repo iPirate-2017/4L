@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BASICA! A Free Bootstrap3 HTML5 CSS3 Template by Vactual Art</title>
+    <title>nout4l.re - départ du 4L Trophy 2018</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
