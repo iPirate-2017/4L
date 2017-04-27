@@ -42,25 +42,29 @@
 <!-- NavBar -->
 <div id="V_NavBar"></div>
 
-<!-- Vue du slider-->
-<div id="V_Slider"></div>
+<div id="V_Contenue"> <!-- Div avec le contenue actualisé -->
 
-<!-- Vue Action Bar -->
-<div id="V_callAction"></div>
+      <!-- Vue du slider-->
+      <div id="V_Slider"></div>
 
-<!-- Vue Liens Important -->
-<div id="V_liensImportant"></div>
+      <!-- Vue Action Bar -->
+      <div id="V_callAction"></div>
+
+      <!-- Vue Liens Important -->
+      <div id="V_liensImportant"></div>
 
 
-<hr>
+      <hr>
 
-<!-- Vue Dernier Articles -->
-<div id="V_DernierArticle"></div>
+      <!-- Vue Dernier Articles -->
+      <div id="V_DernierArticle"></div>
 
-<hr>
+      <hr>
 
-<!-- Sponsors -->
-<div id="V_Sponsors"></div>
+      <!-- Sponsors -->
+      <div id="V_Sponsors"></div>
+
+</div> <!-- Div avec le contenue actualisé -->
 
 <!-- Footer -->
 <div id="V_Footer"></div>
@@ -88,6 +92,24 @@ $(function()
   $("#V_DernierArticle").load("./views/DernierArticles.php");
   $("#V_Sponsors").load("./views/sponsors.php");
   $("#V_Footer").load("./views/footer.php");
+
+});
+
+</script>
+
+<script type="text/javascript">
+
+$(function () {
+
+$("about").click(function(event) {
+  alert("test");
+  $("#V_Slider").hide();
+  $("#V_callAction").hide();
+  $("#V_liensImportant").hide();
+  $("#V_DernierArticle").hide();
+  $("#V_Sponsors").hide();
+});
+
 
 });
 

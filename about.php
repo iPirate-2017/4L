@@ -241,11 +241,6 @@ $(function()
   $("#V_NavBar").load("./views/navbar.php");
   $("#V_Footer").load("./views/footer.php");
 
-    $(document).ready(function () {
-      $('.nav #home').removeClass('active');
-      alert("test");
-    });
-
 });
 
 </script>
