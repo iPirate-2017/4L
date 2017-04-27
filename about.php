@@ -40,42 +40,8 @@
         <![endif]-->
 
 
-    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Basica"></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="full-width.html">Full Width Page</a></li>
-                            <li><a href="#">Dropdown Menu 1</a></li>
-                            <li><a href="#">Dropdown Menu 2</a></li>
-                            <li><a href="#">Dropdown Menu 3</a></li>
-                            <li><a href="#">Dropdown Menu 4</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header><!--/header-->
+        <!-- NavBar -->
+        <div id="V_NavBar"></div>
 
         <!-- Page Title -->
 		<div class="section section-breadcrumbs">
@@ -253,45 +219,8 @@
 	    </div>
 
 
-
-	    <!-- Footer -->
-	    <div class="footer">
-	    	<div class="container">
-
-		    	<div class="row">
-
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address:</b> 123 Downtown Avenue, Manhattan, New York, United States of America<br/>
-	        				<b>Phone:</b> +1 123 45678910<br/>
-	        				<b>Fax:</b> +1 123 45678910<br/>
-	        				<b>Email:</b> <a href="mailto:info@yourcompanydomain.com">info@yourcompanydomain.com</a>
-	        			</p>
-		    		</div>
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Our Social Networks</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-		    			<div>
-		    				<img src="img/icons/facebook.png" width="32" alt="Facebook">
-		    				<img src="img/icons/twitter.png" width="32" alt="Twitter">
-		    				<img src="img/icons/linkedin.png" width="32" alt="LinkedIn">
-							<img src="img/icons/rss.png" width="32" alt="RSS Feed">
-						</div>
-		    		</div>
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>About Our Company</h3>
-		    				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
-		    		</div>
-
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-md-12">
-		    			<div class="footer-copyright">&copy; 2014 <a href="http://www.vactualart.com/portfolio-item/basica-a-free-html5-template/">Basica</a> Bootstrap HTML Template. By <a href="http://www.vactualart.com">Vactual Art</a>.</div>
-		    		</div>
-		    	</div>
-		    </div>
-	    </div>
+  <!-- Footer -->
+  <div id="V_Footer"></div>
 
         <!-- Javascripts -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -304,3 +233,14 @@
 
     </body>
 </html>
+
+<script type="text/javascript">
+
+$(function()
+{
+  $("#V_NavBar").load("./views/navbar.php");
+  $("#V_Footer").load("./views/footer.php");
+  
+});
+
+</script>
