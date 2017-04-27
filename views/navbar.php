@@ -17,7 +17,6 @@
                 <li id="sponsors"><a href="services.html">Sponsors</a></li>
                 <li id="blog"><a href="blog.html">Les nouvelles</a></li>
                 <li id="contact"><a href="contact-us.html">Contact</a></li>
-
             </ul>
         </div>
     </div>
