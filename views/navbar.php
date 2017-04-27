@@ -12,11 +12,12 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.php">Accueil</a></li>
-                <li><a href="about.php">L'équipe</a></li>
-                <li><a href="services.php">Sponsors</a></li>
-                <li><a href="blog.php">Les nouvelles</a></li>
-                <li><a href="contact-us.php">Contact</a></li>
+                <li id="home" class="active"><a href="index.php">Home</a></li>
+                <li id="about"><a href="about.php">L'équipe</a></li>
+                <li id="sponsors"><a href="services.html">Sponsors</a></li>
+                <li id="blog"><a href="blog.html">Les nouvelles</a></li>
+                <li id="contact"><a href="contact-us.html">Contact</a></li>
+
             </ul>
         </div>
     </div>
