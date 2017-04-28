@@ -31,7 +31,7 @@
         <p>
           Vivamus euismod elit ac libero facilisis tristique. Duis mollis non ligula vel tincidunt. Nulla consectetur libero id nunc ornare, vel vulputate tellus mollis. Sed quis nulla magna. Integer rhoncus sem quis ultrices lobortis. Maecenas tempus nulla quis dolor vulputate egestas. Phasellus cursus tortor quis massa faucibus fermentum vel sit amet tortor. Phasellus vehicula lorem et tortor luctus, a dignissim lacus tempor. Aliquam volutpat molestie metus sit amet aliquam. Duis vestibulum quam tortor, sed ultrices orci sagittis nec.
         </p>
-      <a href="blog-post.html" class="btn">Read more</a>
+      <a id="click_post" href="#post" class="btn">Read more</a>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@
         <p>
           Vivamus euismod elit ac libero facilisis tristique. Duis mollis non ligula vel tincidunt. Nulla consectetur libero id nunc ornare, vel vulputate tellus mollis. Sed quis nulla magna. Integer rhoncus sem quis ultrices lobortis. Maecenas tempus nulla quis dolor vulputate egestas. Phasellus cursus tortor quis massa faucibus fermentum vel sit amet tortor. Phasellus vehicula lorem et tortor luctus, a dignissim lacus tempor. Aliquam volutpat molestie metus sit amet aliquam. Duis vestibulum quam tortor, sed ultrices orci sagittis nec.
         </p>
-      <a href="blog-post.html" class="btn">Read more</a>
+      <a id="click_post" href="#post" class="btn">Read more</a>
       </div>
     </div>
   </div>
@@ -82,7 +82,7 @@
         <p>
           Vivamus euismod elit ac libero facilisis tristique. Duis mollis non ligula vel tincidunt. Nulla consectetur libero id nunc ornare, vel vulputate tellus mollis. Sed quis nulla magna. Integer rhoncus sem quis ultrices lobortis. Maecenas tempus nulla quis dolor vulputate egestas. Phasellus cursus tortor quis massa faucibus fermentum vel sit amet tortor. Phasellus vehicula lorem et tortor luctus, a dignissim lacus tempor. Aliquam volutpat molestie metus sit amet aliquam. Duis vestibulum quam tortor, sed ultrices orci sagittis nec.
         </p>
-      <a href="blog-post.html" class="btn">Read more</a>
+      <a id="click_post" href="#post" class="btn">Read more</a>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@
         <p>
           Vivamus euismod elit ac libero facilisis tristique. Duis mollis non ligula vel tincidunt. Nulla consectetur libero id nunc ornare, vel vulputate tellus mollis. Sed quis nulla magna. Integer rhoncus sem quis ultrices lobortis. Maecenas tempus nulla quis dolor vulputate egestas. Phasellus cursus tortor quis massa faucibus fermentum vel sit amet tortor. Phasellus vehicula lorem et tortor luctus, a dignissim lacus tempor. Aliquam volutpat molestie metus sit amet aliquam. Duis vestibulum quam tortor, sed ultrices orci sagittis nec.
         </p>
-      <a href="blog-post.html" class="btn">Read more</a>
+      <a id="click_post" href="#post" class="btn">Read more</a>
       </div>
     </div>
   </div>
@@ -129,3 +129,11 @@
 </div>
 </div>
 </div>
+
+<script type="text/javascript">
+
+$('#click_post').click(function() { //Quand click sur about alors..
+  $("#V_Contenue").load("./views/view_blog/blog-post.php"); // Remplace le contenu de V_Contenue dans index
+  });
+
+</script>

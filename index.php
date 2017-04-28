@@ -54,12 +54,12 @@
       <div id="V_liensImportant"></div>
 
 
-      <hr>
+      <hr> <!-- barre de séparation -->
 
       <!-- Vue Dernier Articles -->
       <div id="V_DernierArticle"></div>
 
-      <hr>
+      <hr> <!-- barre de séparation -->
 
       <!-- Sponsors -->
       <div id="V_Sponsors"></div>
