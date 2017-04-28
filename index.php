@@ -81,6 +81,7 @@
     </body>
 </html>
 
+
 <script type="text/javascript">
 
 $(function()
@@ -92,24 +93,6 @@ $(function()
   $("#V_DernierArticle").load("./views/DernierArticles.php");
   $("#V_Sponsors").load("./views/sponsors.php");
   $("#V_Footer").load("./views/footer.php");
-
-});
-
-</script>
-
-<script type="text/javascript">
-
-$(function () {
-
-$("about").click(function(event) {
-  alert("test");
-  $("#V_Slider").hide();
-  $("#V_callAction").hide();
-  $("#V_liensImportant").hide();
-  $("#V_DernierArticle").hide();
-  $("#V_Sponsors").hide();
-});
-
 
 });
 
